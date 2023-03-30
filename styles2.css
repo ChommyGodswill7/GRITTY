@@ -56,6 +56,44 @@ ul li a{
 ul li a:hover{
     color: #ff7200;
 }
+
+/*@media (max-width: 1048px){
+    .logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    ul{
+        margin-right: 20px;
+    }
+    ul li a{
+        font-size: 17px;
+    }
+}
+@media (max-width: 909px){
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background:rgba(4, 48,68,0.8);
+        top: 80px;
+        left: -100px;
+        text-align: center;
+        transition: all .5s;
+    }
+    ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    ul li a{
+        font-size: 20px;
+
+    }
+    ul li a:hover{
+        border: none;
+        color: #ff7200;
+    }
+}*/
 .search{
     width: 330px;
     float: left;
@@ -225,3 +263,11 @@ form .link a{
     padding bottom: 10px;
     text-align: center;
 }
+.icon i{
+    text-decoration: none;
+    color: rgba(4, 48, 68, 0.8);
+    font-size: 30px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
